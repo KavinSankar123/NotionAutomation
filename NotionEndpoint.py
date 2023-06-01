@@ -81,9 +81,4 @@ class NotionEndpointClass:
             elif status_code == 400:
                 print("Upload Status Code:", status_code, "--> FAILED")
 
-
-# notion_endpoint = NotionEndpointClass()
-#
-# assig_data = notion_endpoint.prepare_data([["CS1502", "Assignment 1", "2023-05-28"]])
-#
-# notion_endpoint.upload_assignment(assig_data)
+                
