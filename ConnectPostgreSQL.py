@@ -6,5 +6,5 @@ class PostgreSQLConnection:
         host="localhost",
         database="postgres",
         user="postgres",
-        password="Applespears123"
+        password="<postgres auth password>"
     )
