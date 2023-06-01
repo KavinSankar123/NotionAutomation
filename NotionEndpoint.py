@@ -3,8 +3,8 @@ import json
 
 
 class NotionEndpointClass:
-    NOTION_TOKEN = "secret_r8968L5ZiQYxtUCAbd9tsRMsJIPC7wxRw71WuxseQlx"
-    DATABASE_ID = "e0df044e59764cd1b2b7c6bf02338146"
+    NOTION_TOKEN = "<put Notion API token here>"
+    DATABASE_ID = "<insert database id>"
     headers = {
         "Authorization": "Bearer " + NOTION_TOKEN,
         "Content-Type": "application/json",
