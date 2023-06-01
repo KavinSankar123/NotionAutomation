@@ -6,8 +6,8 @@ from ConnectPostgreSQL import PostgreSQLConnection
 
 
 class NotionEndpointClass:
-    NOTION_TOKEN = "secret_r8968L5ZiQYxtUCAbd9tsRMsJIPC7wxRw71WuxseQlx"
-    DATABASE_ID = "e0df044e59764cd1b2b7c6bf02338146"
+    NOTION_TOKEN = "<Notion API Password>"
+    DATABASE_ID = "<Notion Database ID>"
     headers = {
         "Authorization": "Bearer " + NOTION_TOKEN,
         "Content-Type": "application/json",
