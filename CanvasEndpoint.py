@@ -4,9 +4,9 @@ from NotionEndpoint import NotionEndpointClass
 
 
 class CanvasEndpointClass:
-    API_KEY = "13997~eArUCjMMW5nAPzDfpMDpr7eT2EP6Kif5vw3VJwWkUWwK45OwHd6CAc0TfUAwVJqE"
+    API_KEY = "[deleted it since this is a public repo]"
     API_URL = "https://canvas.pitt.edu/api/v1"
-    headers = {'Authorization': 'Bearer 13997~eArUCjMMW5nAPzDfpMDpr7eT2EP6Kif5vw3VJwWkUWwK45OwHd6CAc0TfUAwVJqE'}
+    headers = {'Authorization': 'Bearer <enter API key here>'}
 
     class_schedule = {"NROSCI0080": "/courses/192723",
                       "ECON0100": "/courses/187123",
@@ -46,6 +46,5 @@ class CanvasEndpointClass:
                                           self.class_schedule[course] +
                                           "/assignments?per_page=50", headers=self.headers).json()
         return cs1502_assignments
-
-
-
+    
+    
