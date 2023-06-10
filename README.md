@@ -18,5 +18,7 @@ Hello! I created this project to automate fetching my assignments from my classe
 ## How Does it Work?
 - Canvas has an API that allows students to run an API request to fetch their course, assignments, user info, and more.
 - How My Script Works:
-  - I wrote a Python script to automatically make a request through Canvas to fetch all my assignments from all my courses
-  - I then package the data to be uploaded to Notion through the Notion API.
+  - I have one part of the script interacting with the Canvas API to fetch all my assignments from my courses.
+  - I have another part of the script acting as an uploader to Notion using the Notion API.
+  - When I fetch my assignment info, I parse and package the data to be sent through the Notion API.
+  - That's it! 
