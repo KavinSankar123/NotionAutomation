@@ -11,7 +11,8 @@ Hello! I created this project to automate fetching my assignments from my classe
 
 ### How I use Notion
 - I mainly use notion for note taking as well as using their calendars to put my assignments on. It looks something like this:
-- 
+<img width="956" alt="Screen Shot 2023-06-10 at 11 53 46 AM" src="https://github.com/KavinSankar123/NotionAutomation/assets/90232501/2bd04013-410d-4776-90eb-d0b577a42fdc">
+
 
 
 ## How Does it Work?
