@@ -22,3 +22,4 @@ Hello! I created this project to automate fetching my assignments from my classe
   - I have another part of the script acting as an uploader to Notion using the Notion API.
   - When I fetch my assignment info, I parse and package the data to be sent through the Notion API.
   - That's it! 
+    - Don't get me wrong, this took a while since I had to figure out how the API's worked and how their data was structured when you fetch information from them. 
